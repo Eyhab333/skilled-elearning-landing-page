@@ -1,7 +1,7 @@
 /*=========================== desktop ========================*/
 body {
   width: 1440px;
-  height: 1845px;
+  /* height: 1845px; */
 }
 
 button {
@@ -42,8 +42,8 @@ header {
 
 /*@@@@@@@@@@@@@@@@@@@@@@@ hero @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
 .hero {
-  height: 936.92px;
-  margin-bottom: 0px;
+  height: 736.92px;
+  margin-bottom: 70px;
 }
 
 .hero__container {
@@ -97,7 +97,7 @@ header {
   color: #ffa7c3;
 }
 
-.hero__img {
+.hero__img--container {
   width: 991.63px;
   height: 936.92px;
 }
@@ -106,18 +106,16 @@ header {
   object-fit: none;
   object-position: -50% 90%;
 }
-/*@@@@@@@@@@@@@@@@@@@@ section @@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+/*@@@@@@@@@@@@@@@@@@@@ section-grid @@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
 section {
   width: 100%;
   max-width: 1440px;
-  height: 888px;
   padding: 24px 165px 140px 165px;
   background: linear-gradient(180deg, #ffffff 0%, #f0f1ff 100%);
 }
 
 .section__container {
   max-width: 1110px;
-  height: 748px;
 }
 
 .d-grid {
