@@ -2,12 +2,20 @@
 body {
   width: 1440px;
   height: 1845px;
-  border: 2px solid red;
+}
+
+button {
+  border: none;
+  cursor: pointer;
 }
 /*@@@@@@@@@@@@@@@@@@@@@@@@@ header @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
 header {
   position: absolute;
   top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .header__logo {
@@ -23,12 +31,13 @@ header {
   margin-top: 24px;
   margin-right: 165px;
   color: white;
-  background: #13183F;
+  background: #13183f;
   border-radius: 28px;
+  z-index: 99;
 }
 
 .header__button:hover {
-  background: #666CA3;
+  background: #666ca3;
 }
 
 /*@@@@@@@@@@@@@@@@@@@@@@@ hero @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
@@ -38,18 +47,23 @@ header {
 }
 
 .hero__container {
-  max-width: 100%;
+  width: 100%;
+  max-width: 1440px;
 }
 
 .d-flex {
   display: flex;
+  justify-content: space-between;
+}
+
+.hero__text--container {
+  margin-left: 165.79px;
+  margin-top: 252px;
 }
 
 .hero__text {
   width: 457px;
   height: 359px;
-  margin-left: 165.79px;
-  margin-top: 252px;
 }
 
 .hero__text-h1 {
@@ -66,6 +80,7 @@ header {
   line-height: 28px;
   width: 445px;
   color: #83869a;
+  margin-bottom: 40px;
 }
 
 .hero__text-button {
@@ -75,14 +90,21 @@ header {
   color: #ffffff;
   background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
   border-radius: 31.5px;
+  width: 167px;
+  height: 63px;
 }
 .hero__text-button:hover {
-  color: #FFA7C3;
+  color: #ffa7c3;
 }
 
 .hero__img {
   width: 991.63px;
   height: 936.92px;
+}
+
+.hero__img--img {
+  object-fit: none;
+  object-position: -5% 70%;
 }
 /*@@@@@@@@@@@@@@@@@@@@ section @@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
 section {
@@ -146,7 +168,7 @@ section {
   width: 56px;
   height: 56px;
   position: absolute;
-  top: -10px;
+  top: -27px;
 }
 
 .grid-item__h2 {
@@ -175,6 +197,21 @@ section {
   cursor: pointer;
 }
 
+.grid-item__2 .grid-item__p2 {
+  margin-top: 24px;
+}
+.grid-item__3 .grid-item__p2 {
+  margin-top: 52px;
+}
+.grid-item__4 .grid-item__p2 {
+  margin-top: 52px;
+}
+.grid-item__5 .grid-item__p2 {
+  margin-top: 24px;
+}
+.grid-item__6 .grid-item__p2 {
+  margin-top: 24px;
+}
 /*@@@@@@@@@@@@@@@@@@@@@@ footer @@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
 footer {
   height: 120px;
