@@ -29,7 +29,7 @@ header {
   width: 167px;
   height: 56px;
   margin-top: 24px;
-  margin-right: 165px;
+  margin-right: 115px;
   color: white;
   background: #13183f;
   border-radius: 28px;
@@ -43,7 +43,7 @@ header {
 /*@@@@@@@@@@@@@@@@@@@@@@@ hero @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
 .hero {
   height: 936.92px;
-  margin-bottom: 46px;
+  margin-bottom: 0px;
 }
 
 .hero__container {
@@ -58,7 +58,7 @@ header {
 
 .hero__text--container {
   margin-left: 165.79px;
-  margin-top: 252px;
+  margin-top: 190px;
 }
 
 .hero__text {
@@ -104,7 +104,7 @@ header {
 
 .hero__img--img {
   object-fit: none;
-  object-position: -5% 70%;
+  object-position: -50% 90%;
 }
 /*@@@@@@@@@@@@@@@@@@@@ section @@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
 section {
