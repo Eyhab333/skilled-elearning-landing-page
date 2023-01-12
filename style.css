@@ -1,4 +1,4 @@
-/*=========================== desktop ========================*/
+/*========================= desktop =============================*/
 body {
   width: 1440px;
   /* height: 1845px; */
@@ -43,7 +43,7 @@ header {
 /*@@@@@@@@@@@@@@@@@@@@@@@ hero @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
 .hero {
   height: 736.92px;
-  margin-bottom: 70px;
+  margin-bottom: 75px;
 }
 
 .hero__container {
@@ -251,4 +251,11 @@ footer {
       rgba(255, 255, 255, 0.5)
     ),
     linear-gradient(180deg, #4851ff -54.32%, #f02aa6 100%);
+}
+
+/*========================= tablet =============================*/
+@media (max-width: 768px) {
+  body {
+    background-color: red;
+  }
 }
