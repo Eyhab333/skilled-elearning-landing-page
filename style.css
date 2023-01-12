@@ -29,7 +29,7 @@ header {
   width: 167px;
   height: 56px;
   margin-top: 24px;
-  margin-right: 115px;
+  margin-right: 135px;
   color: white;
   background: #13183f;
   border-radius: 28px;
@@ -116,6 +116,7 @@ section {
 
 .section__container {
   max-width: 1110px;
+  height: 748px;
 }
 
 .d-grid {
