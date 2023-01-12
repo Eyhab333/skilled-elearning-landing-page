@@ -132,6 +132,9 @@ section {
   box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
   border-radius: 15px;
   padding: 64px 32px 40px 32px;
+  width: 350px;
+  height: 322px;
+  border: 3px red solid;
   position: relative;
 }
 
@@ -176,6 +179,7 @@ section {
   line-height: 30px;
   color: #13183f;
   margin-bottom: 24px;
+  margin-top: 0px;
 }
 
 .grid-item__p1 {
@@ -203,7 +207,7 @@ section {
   margin-top: 52px;
 }
 .grid-item__4 .grid-item__p2 {
-  margin-top: 52px;
+  margin-top: 24px;
 }
 .grid-item__5 .grid-item__p2 {
   margin-top: 24px;
