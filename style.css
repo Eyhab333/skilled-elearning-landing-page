@@ -104,7 +104,7 @@ header {
 
 .hero__img--img-desktop {
   object-fit: none;
-  object-position: -50% 80%;
+  object-position: -20% 80%;
 }
 
 .hero__img--img-mobile,
